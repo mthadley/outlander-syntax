@@ -1,5 +1,5 @@
-# outlander-syntax theme
+# Outlander Syntax
 
-A short description of your theme.
+Outlander is a syntax theme for [Atom](https://atom.io/). This theme is an almost clone of the [Tomorrow Night Eighties](https://github.com/ChrisKempson/Tomorrow-Theme) color scheme by @chriskempson, save for a few tweaks to keep it inline with [Outlander-ui](https://github.com/mthadley/outlander-UI).
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+![Screenshot](screenshot.png)
