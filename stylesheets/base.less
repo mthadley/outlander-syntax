@@ -71,8 +71,7 @@
 
 .entity {
   &.name.type {
-    color: @light-orange;
-    text-decoration: underline;
+    color: @light-accent;
   }
 
   &.other.inherited-class {
@@ -96,23 +95,23 @@
   }
 
   &.other.unit {
-    color: @orange;
+    color: @accent;
   }
 }
 
 .storage {
-  color: @purple;
+  color: @red;
 }
 
 .constant {
-  color: @orange;
+  color: @accent;
 
   &.character.escape {
     color: @cyan;
   }
 
   &.numeric {
-    color: @orange;
+    color: @accent;
   }
 
   &.other.color {
@@ -149,7 +148,7 @@
     color: @cyan;
 
     .source.ruby.embedded {
-      color: @orange;
+      color: @accent;
     }
   }
 
@@ -177,7 +176,7 @@
     }
 
     &.bold {
-      color: @light-orange;
+      color: @light-accent;
       font-style: bold;
     }
 
@@ -188,14 +187,14 @@
   }
 
   &.section.embedded {
-    color: darken(@red, 10%);
+    color: desaturate(@red, 5%);
   }
 
 }
 
 .support {
   &.class {
-    color: @light-orange;
+    color: @light-accent;
   }
 
   &.function  {
@@ -213,7 +212,7 @@
   }
 
   &.name.class, &.name.type.class {
-    color: @light-orange;
+    color: @light-accent;
   }
 
   &.name.section {
@@ -222,11 +221,10 @@
 
   &.name.tag {
     color: @red;
-    text-decoration: underline;
   }
 
   &.other.attribute-name {
-    color: @orange;
+    color: @accent;
 
     &.id {
       color: @blue;
@@ -236,11 +234,11 @@
 
 .meta {
   &.class {
-    color: @light-orange;
+    color: @syntax-text-color;
   }
 
   &.link {
-    color: @orange;
+    color: @accent;
   }
 
   &.require {
@@ -263,7 +261,7 @@
 
 .markup {
   &.bold {
-    color: @orange;
+    color: @accent;
     font-style: bold;
   }
 
@@ -293,7 +291,7 @@
   }
 
   &.quote {
-    color: @orange;
+    color: @accent;
   }
 
   &.raw.inline {
