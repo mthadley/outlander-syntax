@@ -1,7 +1,7 @@
 {
   "name": "outlander-syntax",
   "theme": "syntax",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A dark syntax theme from elsewhere",
   "repository": "https://github.com/mthadley/outlander-syntax",
   "license": "MIT",
