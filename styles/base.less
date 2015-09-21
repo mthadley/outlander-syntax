@@ -8,21 +8,12 @@ atom-text-editor, :host {
     background-color: @syntax-wrap-guide-color;
   }
 
-  .indent-guide {
-    color: @syntax-indent-guide-color;
-    box-shadow: none;
-
-    &:before {
-      background-color: @syntax-indent-guide-color;
-      content: '';
-      height: 100%;
-      position: absolute;
-      width: 1px;
-    }
-  }
-
   .invisible-character {
     color: @syntax-invisible-character-color;
+  }
+
+  .indent-guide {
+    color: @syntax-indent-guide-color;
   }
 
   .gutter {
